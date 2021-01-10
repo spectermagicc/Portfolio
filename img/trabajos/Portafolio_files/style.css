@@ -1,35 +1,25 @@
-* {
+*{
     box-sizing: border-box;
 }
 
-body {
+body{
     background: white;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
 
-.container {
+.container{
     width: 90%;
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
 }
 
-.green-vue {
-    color: #42b883
-}
-
-.blue-react {
-    color: #6495ed
-}
-
-
 /* ------------- header  ------------- */
-
 
 /* ------------- flecha  ------------- */
 
-.flecha-volver {
+.flecha-volver{
     padding: 20px;
     font-size: 50px;
     color: rgb(102, 68, 117);
@@ -39,42 +29,40 @@ body {
     right: 0;
 }
 
-.flecha-volver {
-    text-shadow: 1px 1px 1px black;
-}
-
+.flecha-volver{
+    text-shadow: 1px 1px 1px black;}
 
 /* ------------- flecha  ------------- */
+header{
+    background: url('../img/fondo.jpg') #49a3d6;
 
-header {
-    background: url('../img/trabajos/banner.png') #49a3d6;
     background-position: center;
     max-height: 600px;
+    
 }
 
-header .menu {
+header .menu{
     text-align: right;
     margin: 40px 0;
 }
 
-header .menu a {
+header .menu a{
     margin: 0 20px;
     color: white;
     padding-bottom: 9px;
-    font-size: 1em;
-    /* 16px*/
+    font-size: 1em; /* 16px*/
     display: inline-block;
     text-decoration: none;
-    border-bottom: 2px solid transparent;
-    /*Ocupamos transparent para eivtar un desplazamiento en la pag*/
+    border-bottom: 2px solid transparent; /*Ocupamos transparent para eivtar un desplazamiento en la pag*/
 }
 
-header .menu a:hover {
+header .menu a:hover{
     border-bottom: 2px solid white;
     transition-duration: .5s;
 }
 
-header .text-container {
+
+header .text-container{
     display: flex;
     margin: 190px 0;
     justify-content: center;
@@ -83,49 +71,46 @@ header .text-container {
     flex-wrap: wrap;
 }
 
-header .text-container .text {
-    border: 2px solid rgba(255, 255, 255, .5);
+header .text-container .text{
+    border: 2px solid rgba(255,255,255,.5);
     border-radius: 3px;
     display: inline-block;
     text-align: center;
-    padding: 20px 60px;
-    background-color: rgb(43, 41, 41);
+    padding: 20px 60px;;
 }
 
-header .text-container .text h1,
-h2 {
+header .text-container .text h1,h2{
     color: white;
     font-weight: 300;
     margin: 0;
 }
 
-header .text-container .text .name {
+header .text-container .text .name{
     font-size: 50px;
     line-height: 50px;
     padding-bottom: 20px;
 }
 
-header .text-container .text .profession {
+header .text-container .text .profession{
     font-size: 25px;
     line-height: 25px;
 }
 
-
 /* ------------- main  ------------- */
 
-.main .container {
+.main .container{
     overflow: visible;
 }
 
-.main .about {
+.main .about{
     text-align: center;
 }
 
-.main .about .photo {
-    margin-top: -60px;
+.main .about .photo{
+    margin-top:-60px;
 }
 
-.main .about .photo .profile-photo {
+.main .about .photo .profile-photo{
     width: 120px;
     height: 120px;
     object-fit: cover;
@@ -133,16 +118,17 @@ header .text-container .text .profession {
     border: 5px solid rgba(255, 255, 255, .2);
 }
 
-.main .about .text {
+.main .about .text{
     color: #5A5A5A;
     font-weight: 600;
     font-size: 1em;
     line-height: 30px;
     width: 80%;
     margin: 40px auto 60px auto;
+
 }
 
-.main .about .text .title {
+.main .about .text .title{
     font-size: 34px;
     line-height: 34px;
     margin-bottom: 40px;
@@ -151,26 +137,25 @@ header .text-container .text .profession {
     font-weight: 300;
 }
 
-.main .about .text .bold {
+.main .about .text .bold{
     color: rgb(132, 0, 255);
 }
 
 
 /* ------------- trabajos  ------------- */
 
-.works {
+.works{
     background: #f2f2f26c;
     padding: 60px 0;
 }
 
-.works .categorias {
+.works .categorias{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-
-.works .categorias a {
+.works .categorias a{
     color: #9b9b9b;
     margin: px 20px;
     font-size: 18px;
@@ -178,11 +163,10 @@ header .text-container .text .profession {
     font-weight: 400;
 }
 
-.works .categorias a.activo {
-    color: black
+.works .categorias a.activo{
+    color:black
 }
-
-.works .container .title {
+.works .container .title{
     font-size: 34px;
     line-height: 34px;
     margin-bottom: 40px;
@@ -191,24 +175,25 @@ header .text-container .text .profession {
     font-weight: 300;
 }
 
-.works .container .works-container {
+.works .container .works-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.works .container .works-container .work {
+.works .container .works-container .work{
     width: 23%;
     margin-bottom: 40px;
+
 }
 
-.works .container .works-container .work .thumb {
+.works .container .works-container .work .thumb{
     width: 100%;
     margin-bottom: 10px;
 }
 
-.works .container .works-container .work .thumb img {
+.works .container .works-container .work .thumb img{
     width: 100%;
     vertical-align: top;
     border-radius: 3px;
@@ -218,33 +203,33 @@ header .text-container .text .profession {
     background: white;
 }
 
-.works .container .works-container .work .description {
-    text-align: center;
+.works .container .works-container .work .description{
+    text-align:center;
 }
 
-.works .container .works-container .work .name-work {
+.works .container .works-container .work .name-work{
     font-weight: 700;
     color: #810065;
 }
 
-.works .container .works-container .work .categories {
+.works .container .works-container .work .categories{
     color: rgb(102, 102, 102);
 }
 
-.works .container .works-container .work .thumb img:hover {
+.works .container .works-container .work .thumb img:hover{
     opacity: 1;
     border: 1px solid black;
     transition-duration: .3s;
 }
 
 
-/* ------------- footer  ------------- */
 
-footer .contact {
+/* ------------- footer  ------------- */
+footer .contact{
     padding: 60px 0;
 }
 
-footer .contact .title {
+footer .contact .title{
     font-size: 34px;
     line-height: 34px;
     margin-bottom: 40px;
@@ -253,7 +238,7 @@ footer .contact .title {
     font-weight: 300;
 }
 
-.datosPersonales {
+.datosPersonales{
     text-align: center;
     display: flex;
     justify-content: center;
@@ -261,7 +246,7 @@ footer .contact .title {
 }
 
 .datosPersonales .mails,
-.datosPersonales a {
+.datosPersonales a{
     width: 30%;
     border-radius: 40px;
     padding: 25px;
@@ -272,16 +257,17 @@ footer .contact .title {
 }
 
 .datosPersonales .mails:hover,
-.datosPersonales a:hover {
+.datosPersonales a:hover{
     background-color: rgb(241, 241, 241);
 }
 
-footer .rrss {
+
+footer .rrss{
     background: rgb(52, 46, 54);
     padding: 60px 0;
 }
 
-footer .rrss .container {
+footer .rrss .container{
     display: flex;
     justify-content: center;
 }
@@ -297,17 +283,17 @@ footer .rrss a {
     margin: 0 20px;
 }
 
-footer .rrss .fb:hover {
+
+footer .rrss .fb:hover{
     background: #3b5998;
     transition-duration: .2s;
 }
 
-footer .rrss .ig:hover {
+footer .rrss .ig:hover{
     background: #3f729b;
     transition-duration: .2s;
 }
-
-footer .rrss .tw:hover {
+footer .rrss .tw:hover{
     background: #1da1f2;
     transition-duration: .2s;
 }
@@ -315,61 +301,69 @@ footer .rrss .tw:hover {
 
 /* ------- MEDIA QUERIES --------- */
 
-@media screen and (max-width: 800px) {
-    .container {
+@media screen and (max-width: 800px){
+    .container{
         width: 100%;
         text-align: center;
     }
-    .works .container .works-container .work {
+    .works .container .works-container .work{
         width: 46%;
     }
-    footer .container {
+    footer .container{
         width: 100%;
     }
-    .datosPersonales {
+    
+    
+    .datosPersonales{
         display: flex;
         flex-direction: column;
     }
+    
     .datosPersonales .mails,
-    .datosPersonales a {
+    .datosPersonales a{
         width: 80%;
     }
 }
 
-@media screen and (max-width: 500px) {
-    header .container .text .name {
+@media screen and (max-width: 500px){
+    header .container .text .name{
         font-size: 35px;
     }
-    header .container .text .profession {
+    header .container .text .profession{
         font-size: 18px;
     }
 }
 
-@media screen and (max-width: 400px) {
-    .flecha-volver {
+@media screen and (max-width: 400px){
+    .flecha-volver{
         display: none;
     }
-    header {
+    header{
         height: 400px;
     }
-    header .text-container .text {
-        padding: 10px 30px;
-        ;
+
+    header .text-container .text{
+        padding: 10px 30px;;
     }
-    header .text-container {
+
+    header .text-container{
         display: flex;
         margin: 10px 0;
     }
-    header .text-container .text .name {
+
+    header .text-container .text .name{
         font-size: 25px;
         line-height: 10px;
         padding: 10px 0;
     }
-    header .text-container .text .profession {
+
+    header .text-container .text .profession{
         font-size: 15px;
         padding: 10px 0;
     }
-    .works .container .works-container .work {
+
+
+    .works .container .works-container .work{
         width: 100%;
     }
 }
